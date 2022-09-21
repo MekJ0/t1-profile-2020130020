@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/portofolio', function () {
     return view('portofolio');
 });
+
+Route::get('/index', function () {
+    return view('index');
+});
